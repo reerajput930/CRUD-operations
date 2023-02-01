@@ -1,0 +1,9 @@
+@media screen and (max-width: 500px) {
+    .card{
+        width: 40%;
+        margin: 4px;
+    }
+    nav li{
+        padding: 5px;
+    }
+  }

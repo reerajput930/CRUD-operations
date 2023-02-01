@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: .5px;
+}
+nav{
+    background-color: #39395f;
+    height: 80px;
+    margin-bottom: 50px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: -webkit-fill-available;
+}
+
+nav li{
+    list-style: none;
+    margin: 30px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+form a{
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}

@@ -1,0 +1,45 @@
+.container--allUsers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    border: none;
+    width: 25%;
+    /* height: 25%; */
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+.lower-part button{
+    background-color: #416a59;
+    color: white;
+    border: none;
+    margin: 2px;
+    border-radius: 5px;
+    padding: 5px;
+    width: -webkit-fill-available;
+    cursor: pointer;
+}
+
+.lower-part button a{
+    color: white;
+    text-decoration: none;
+}
+.lower-part,.upper-part{
+    width: -webkit-fill-available;
+
+}
+.upper-part p{
+    margin: 10px;
+}
+.upper-part{
+    margin-bottom: 20px;
+}
